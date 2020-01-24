@@ -1,0 +1,124 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "CreditApp",
+  "desc": "",
+  "culture": "es-es",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Agradecer"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "PrestarDinero"
+    },
+    {
+      "name": "Saludar"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "buena tarde",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "buenas noches",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "cómo te llamas?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cuáles son los préstamos",
+      "intent": "PrestarDinero",
+      "entities": []
+    },
+    {
+      "text": "dame un préstamo",
+      "intent": "PrestarDinero",
+      "entities": []
+    },
+    {
+      "text": "dime un chiste",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "gracias",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "gracias me ayudaste",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "gracias por el apoyo",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "gracias, muy amable",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "hacen préstamos?",
+      "intent": "PrestarDinero",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "hola buen día",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "hola qué tal?",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "muchas gracias",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "necesito un préstamo",
+      "intent": "PrestarDinero",
+      "entities": []
+    },
+    {
+      "text": "por favor quiero un préstamo urgente",
+      "intent": "PrestarDinero",
+      "entities": []
+    },
+    {
+      "text": "quiero un préstamo",
+      "intent": "PrestarDinero",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
