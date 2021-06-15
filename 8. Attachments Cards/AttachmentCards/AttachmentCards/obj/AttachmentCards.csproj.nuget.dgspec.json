@@ -1,34 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YUDNER\\Desktop\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj": {}
+    "D:\\GitHub\\Dev-Bot-Framework-V4\\8. Attachments Cards\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YUDNER\\Desktop\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj": {
+    "D:\\GitHub\\Dev-Bot-Framework-V4\\8. Attachments Cards\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YUDNER\\Desktop\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj",
+        "projectUniqueName": "D:\\GitHub\\Dev-Bot-Framework-V4\\8. Attachments Cards\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj",
         "projectName": "AttachmentCards",
-        "projectPath": "C:\\Users\\YUDNER\\Desktop\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj",
-        "packagesPath": "C:\\Users\\YUDNER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YUDNER\\Desktop\\AttachmentCards\\AttachmentCards\\obj\\",
+        "projectPath": "D:\\GitHub\\Dev-Bot-Framework-V4\\8. Attachments Cards\\AttachmentCards\\AttachmentCards\\AttachmentCards.csproj",
+        "packagesPath": "C:\\Users\\Yudner\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Dev-Bot-Framework-V4\\8. Attachments Cards\\AttachmentCards\\AttachmentCards\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\YUDNER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yudner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -39,23 +41,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.1, )",
-              "autoReferenced": true
-            },
             "Microsoft.Bot.Builder.Integration.AspNet.Core": {
               "target": "Package",
-              "version": "[4.7.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
+              "version": "[4.13.2, )"
             }
           },
           "imports": [
@@ -68,7 +59,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
